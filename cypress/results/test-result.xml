@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.333" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-01-17T01:51:03" tests="0" file="src/app/[locale]/(dashboard)/program/contract/rate/header/breadcrumb/partials/breadcrumb.cy.tsx" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Breadcrumb Component" timestamp="2024-01-17T01:51:03" tests="1" time="0.331" failures="1">
+    <testcase name="Breadcrumb Component should navigate to the contract details page when a breadcrumb is clicked" time="0.000" classname="should navigate to the contract details page when a breadcrumb is clicked">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; could not find react-redux context value; please ensure the component is wrapped in a &lt;Provider&gt;
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="Error"><![CDATA[Error: The following error originated from your application code, not from Cypress.
+
+  > could not find react-redux context value; please ensure the component is wrapped in a <Provider>
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at useReduxContext2 (http://localhost:8080/__cypress/src/vendors-node_modules_mui_icons-material_NavigateNext_js-node_modules_mui_material_Breadcrumbs-22d3c8.js:24754:13)
+    at useSelector2 (http://localhost:8080/__cypress/src/vendors-node_modules_mui_icons-material_NavigateNext_js-node_modules_mui_material_Breadcrumbs-22d3c8.js:24792:9)
+    at Breadcrumb (webpack://_N_E/./src/app/[locale]/(dashboard)/program/contract/rate/header/breadcrumb/breadcrumb.tsx:11:21)
+    at renderWithHooks (http://localhost:8080/__cypress/src/vendors-node_modules_react-dom_index_js.js:16314:18)
+    at mountIndeterminateComponent (http://localhost:8080/__cypress/src/vendors-node_modules_react-dom_index_js.js:20078:13)
+    at beginWork (http://localhost:8080/__cypress/src/vendors-node_modules_react-dom_index_js.js:21591:16)
+    at HTMLUnknownElement.callCallback (http://localhost:8080/__cypress/src/vendors-node_modules_react-dom_index_js.js:4173:14)
+    at Object.invokeGuardedCallbackDev (http://localhost:8080/__cypress/src/vendors-node_modules_react-dom_index_js.js:4222:16)
+    at invokeGuardedCallback (http://localhost:8080/__cypress/src/vendors-node_modules_react-dom_index_js.js:4286:31)
+    at beginWork$1 (http://localhost:8080/__cypress/src/vendors-node_modules_react-dom_index_js.js:27455:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
